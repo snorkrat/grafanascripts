@@ -1,22 +1,9 @@
-// wait until DOM is fully loaded
+// wait until panel is fully loaded
+// first set panelid of panel in grafana
 
-function handleSomeDiv(someDiv) { 
-    console.log("div was handled");
-}
-
-const observer = new MutationObserver(function (mutations, mutationInstance) {
-    const someDiv = document.querySelector('[data-panelid="63301"]');
-    if (someDiv) {
-        handleSomeDiv(someDiv);
-        mutationInstance.disconnect();
-    }
-});
-
-
-observer.observe(document, {
-    childList: true,
-    subtree:   true
-});
+document.addEventListener('load',()=>{
+  document.querySelector('[data-panelid="63301"]');
+});;
 
 // first set panelid of panel in grafana
 
