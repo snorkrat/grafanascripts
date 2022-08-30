@@ -5,9 +5,9 @@ const target = document.querySelector('body');
  
 // Create a new observer instance:
 const observer = new MutationObserver(function() {
-    if (document.getElementsByClassName('react-grid-item')[0]) {
-        console.log("The new react-grid-item was just appended!");
-        document.getElementsByClassName('react-grid-item')[0].setAttribute("data-iframe-height","");
+    if (document.querySelector('[data-panelid="63301"]')) {
+        console.log("data-panelid 63301 was just appended!");
+        document.querySelector('[data-panelid="63301"]').setAttribute("data-iframe-height","");
     }
 });
  
