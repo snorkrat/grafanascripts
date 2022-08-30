@@ -5,7 +5,7 @@ const target = document.querySelector('body');
  
 // Create a new observer instance:
 const observer = new MutationObserver(function() {
-    if (document.querySelector('track-horizontal')) {
+    if (document.getElementsByClassName('track-horizontal')) {
         console.log("track-horizontal was just appended!");
         var list, index;
 	    list = document.getElementsByClassName("react-grid-item");
