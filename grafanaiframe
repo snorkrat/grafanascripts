@@ -1,4 +1,3 @@
-<script type="text/javascript">
 function sendHeight()
 {
     if(parent.postMessage)
@@ -24,4 +23,3 @@ eventer(messageEvent, function(e) {
 
 }, 
 false);
-</script>
