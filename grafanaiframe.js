@@ -4,7 +4,7 @@ function sendHeight()
     {
         // replace #wrapper with element that contains 
         // actual page content
-        var height= document.getElementById('grafanaiframewrapper').offsetHeight;
+        var height= document.getElementById('body').offsetHeight;
         parent.postMessage(height, '*');
     }
 }
