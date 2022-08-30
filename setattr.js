@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(event) {
       console.log("DOM fully loaded and parsed");
-      document.getElementsByClassName('grafana-app')[0].setAttribute("data-iframe-height","");
+      document.getElementsByClassName('react-grid-layout')[0].setAttribute("data-iframe-height","");
 });
 
 //document.addEventListener("DOMContentLoaded", function(event) {
