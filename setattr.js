@@ -8,6 +8,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	var list, index;
 	list = document.getElementsByClassName("react-grid-item");
 	for (index = 0; index < list.length; ++index) {
-		list[index].setAttribute("data-iframe-height", "");
+		list[index].setAttribute("data-iframe-height", "123");
 	}
 });
