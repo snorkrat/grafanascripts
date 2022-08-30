@@ -1,11 +1,6 @@
-//window.onload = function(){
-  // your code here
-  // first set panelid of panel in grafana
-  //document.querySelector('[data-panelid="63301"]').setAttribute("data-iframe-height","123");
-//};
-
 window.onload = function(){
   // your code here
   // first set panelid of panel in grafana
-  querySelector('[data-panelid="63301"]').dataset.iframe-height = "";
+  //document.querySelector('[data-panelid="63301"]').setAttribute("data-iframe-height","123");
+  document.getElementsByClassName('react-grid-item').setAttribute("data-iframe-height","");
 };
