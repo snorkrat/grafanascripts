@@ -11,11 +11,12 @@ const observer = new MutationObserver(function() {
 		list = document.getElementsByClassName("react-grid-item");
 		for (index = 0; index < list.length; ++index) {
 			list[index].setAttribute("data-iframe-height", "");
-            console.log("Added data-iframe-height to all react-grid-items");
-
-            document.querySelectorAll("[class^=css-]")[0].style.padding = "0px";
-		    console.log("Added 0px padding to all css- classes");
+			console.log("Added data-iframe-height to all react-grid-items");
 		}
+
+		// Find css- classes and remove padding:
+		document.querySelectorAll("[class^=css-]")[0].style.padding = "0px";
+		console.log("Added 0px padding to all css- classes");
 	}
 });
 
