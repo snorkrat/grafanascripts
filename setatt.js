@@ -14,13 +14,14 @@ const observer = new MutationObserver(function() {
 			console.log("Added data-iframe-height to all react-grid-items");
 		}
 
+		// Removed this as removing padding from all css- classes was making some tables look odd.  Instead specivy css-xxxx class of div in boom theme settings.
 		// Find css- classes and remove padding:
-		var list2, index2;
-		list2 = document.querySelectorAll("[class^=css-]");
-		for (index2 = 0; index2 < list2.length; ++index2) {
-			list2[index2].style.padding = "0px";
-			console.log("Added 0px padding to all css- classes");
-		}
+	//	var list2, index2;
+	//	list2 = document.querySelectorAll("[class^=css-]");
+	//	for (index2 = 0; index2 < list2.length; ++index2) {
+	//		list2[index2].style.padding = "0px";
+	//		console.log("Added 0px padding to all css- classes");
+	//	}
 	}
 });
 
