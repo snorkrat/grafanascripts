@@ -14,7 +14,8 @@ const observer = new MutationObserver(function() {
 	    }
         console.log("Added data-iframe-height to all react-grid-items");
 	    
-	document.querySelectorAll("[class^=css-]").style.padding = "0px";
+	var myPadding = document.querySelectorAll("[class^=css-]");
+	    myPadding.style.padding = "0px";
 	    
         console.log("Added 0px padding to all css- classes");
     }
