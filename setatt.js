@@ -13,10 +13,12 @@ const observer = new MutationObserver(function() {
 		list[index].setAttribute("data-iframe-height", "");
 	    }
         console.log("Added data-iframe-height to all react-grid-items");
+
+	document.getElementsByClassName('css-1nm48fy').style.padding = "0px";
+        console.log("Added 0px padding to all css- classes");
 	    
 	var myPadding = document.querySelectorAll("[class^=css-]");
 	    myPadding.style.padding = "0px";
-	    
         console.log("Added 0px padding to all css- classes");
     }
 });
