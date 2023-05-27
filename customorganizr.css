@@ -6,6 +6,10 @@
 	background-color: rgba(0, 0, 0, 0) !important;
 }
 
+.css-85us1i-panel-container {
+	background-color: rgba(0,0,0,0.3); !important;
+}
+
 body {
 	background-color: rgba(0, 0, 0, 0) !important;
 }
@@ -39,9 +43,5 @@ body {
 }
 
 [data-panelid="63370"] {
-	visibility: hidden !important;
-}
-
-[data-panelid="63320"] {
 	visibility: hidden !important;
 }
