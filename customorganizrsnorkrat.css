@@ -1,0 +1,51 @@
+.panel-container {
+	background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.panel-container--transparent {
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.css-85us1i-panel-container {
+	background-color: rgba(0,0,0,0.3); !important;
+}
+
+body {
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.dashboard-row {
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+
+[aria-label="table header"] {
+	background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+[role="columnheader"] {
+	color: rgb(204, 204, 220) !important;
+}
+
+.css-1nm48fy {
+	padding: 0px !important;
+}
+
+:root {
+	color-scheme: light !important;
+}
+
+.graph-legend-table .graph-legend-series {
+	background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.graph-legend-table .graph-legend-series:nth-child(2n) {
+	background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+[data-panelid="63370"] {
+	visibility: hidden !important;
+}
+
+[data-panelid="63320"] {
+	visibility: hidden !important;
+}
