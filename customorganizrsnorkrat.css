@@ -6,9 +6,10 @@
 	background-color: rgba(0, 0, 0, 0) !important;
 }
 
-[attribute*="-panel-container"] {
+.css-ke2n4t-panel-container {
 	background-color: rgba(0,0,0,0.3); !important;
 }
+
 .css-85us1i-panel-container {
 	background-color: rgba(0,0,0,0.3); !important;
 }
@@ -51,4 +52,8 @@ body {
 
 [data-panelid="63320"] {
 	visibility: hidden !important;
+}
+
+[attribute*="-panel-container"] {
+	background-color: rgba(0,0,0,0.3); !important;
 }
