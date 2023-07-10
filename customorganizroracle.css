@@ -50,6 +50,6 @@ body {
 	visibility: hidden !important;
 }
 
-[attribute*="-panel-container"] {
+[attribute$="-panel-container"] {
 	background-color: rgba(0,0,0,0.3); !important;
 }
