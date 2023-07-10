@@ -6,6 +6,10 @@
 	background-color: rgba(0, 0, 0, 0) !important;
 }
 
+[attribute*="-panel-container"] {
+	background-color: rgba(0,0,0,0.3); !important;
+}
+
 .css-85us1i-panel-container {
 	background-color: rgba(0,0,0,0.3); !important;
 }
