@@ -6,11 +6,11 @@
 	background-color: rgba(0, 0, 0, 0) !important;
 }
 
-[attribute*="-panel-container"] {
+.css-85us1i-panel-container {
 	background-color: rgba(0,0,0,0.3); !important;
 }
 
-.css-85us1i-panel-container {
+.css-ke2n4t-panel-container {
 	background-color: rgba(0,0,0,0.3); !important;
 }
 
@@ -44,6 +44,10 @@ body {
 
 .graph-legend-table .graph-legend-series:nth-child(2n) {
 	background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+[attribute*="-panel-container"] {
+	background-color: rgba(0,0,0,0.3); !important;
 }
 
 [data-panelid="63370"] {
