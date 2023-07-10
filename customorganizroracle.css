@@ -46,10 +46,10 @@ body {
 	background-color: rgba(0, 0, 0, 0.2) !important;
 }
 
-[attribute*="-panel-container"] {
-	background-color: rgba(0,0,0,0.3); !important;
-}
-
 [data-panelid="63370"] {
 	visibility: hidden !important;
+}
+
+[attribute*="-panel-container"] {
+	background-color: rgba(0,0,0,0.3); !important;
 }
